@@ -13,6 +13,17 @@ Ihr könnt gerne einfach selbst Glossary-Einträge schreiben und zur Einbindung 
 Dabei sollten Begriffe, die in der Beschreibung vorkommen auch schon verlinkt werden:
 \gls{begriff} verlinkt den Begriff mit dem wunderschönerAnzeigeName. Manchmal ist die deutsche Grammatik da aber ein Hindernis und man muss den Fall anpassen. In dem Fall benutzt man \glslink{begriff}{NeuerWunderschönerAnzeigenameFürDiesenFall}
 
+Eine Abkürzung kann über:
+\newacronym{einzigartigeid}{Abkürzungsname}{\gls{iddeseigentlichenBegriffsmitErklärung}}
+
+Beispiel:
+\newglossaryentry{erfahrungspunkte}
+{
+    name={Erfahrungspunkte},
+    description={Erfahrungspunkte sind die Währung, mit der du die Werte deines Charakters weiterentwickelst, sodass dein Charakter immer größere Herausforderungen bestehen kann.}}
+    
+\newacronym{ep}{EP}{\gls{erfahrungspunkte}}
+
 ## Use
 https://ctan.org/pkg/glossaries?lang=en
 https://en.wikibooks.org/wiki/LaTeX/Glossary
