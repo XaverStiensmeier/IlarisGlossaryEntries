@@ -1,1 +1,0 @@
-cat kern/* > full.tex
