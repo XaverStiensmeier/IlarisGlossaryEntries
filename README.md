@@ -1,6 +1,9 @@
 # IlarisGlossaryEntries
 Glossary entries for the ilaris rpg
 
+## Use
+Du kannst einfach die Datenbank deiner Wahl in den Ordner laden und createGlossary.py ausführen und die Ausgabe in glossary.tex umleiten. Dann musst du in der aktuellen Version einmal durchgehen und ein Ergebnis von "nichtfür..." entfernen (da ist eine Dopplung). Zuletzt kannst du glossaryExample.tex mit XeLaTeX ausführen. Dafür benötigst du die ilaris-tex Klasse, die es aktuell noch nicht zum Download gibt, weil die Lizenz unklar ist. Daher musst du dir selbst etwas konstruieren oder abwarten, bis ich mir was dazu einfallen lasse.
+
 ## Contribute
 Ihr könnt gerne einfach selbst Glossary-Einträge schreiben und zur Einbindung vorschlagen. Dafür benötigt man kein Berufsgeheimnis ;)
 
